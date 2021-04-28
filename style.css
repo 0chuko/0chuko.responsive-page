@@ -43,6 +43,28 @@ ul li a:hover {
     background: #fff;
     padding: 0.5rem;
 }
+@media  screen and (max-width:768px) {
+    
+    div.nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: :1rem;
+        width: 100vw;
+    }
+    div.logo{
+        font-size: :1.3rem;
+    }
+    ul.nav-links{
+        flex-direction: column;
+    }
+    ul li{
+        margin: 0;
+        font-size: 1rem;
+    }
+    ul li a {
+        display: flex;
+    }
+}
 
 div.hero-section {
     background: #304353;
@@ -342,36 +364,9 @@ div.footer-btn a {
 div.footer h6 {
     text-align: center;
     color: #88949B;
-    font-size: 1rem;
+    font-size: 1rem; 
     padding-top: 6rem;
 }
-@media all and (max-width:480px){
-    body{ width: 140%;
-        
-        
-    }
-        
-        }
-        div.nav-bar{
-            
-            
-        }
-        div.hero-content-heading p {
-            text-align: center;
-            padding-top: 0.7rem;
-            color: white;
-            font-size: 10px;
-            letter-spacing: 2px;
-            font-weight: 300;
-        }
-        div.hero-content-heading h3 {
-            font-size: 23px;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            font-weight: 300;
-            color: #bcc3c7;
-            
-        
-        }
-}
+
+
 
