@@ -52,9 +52,12 @@ ul li a:hover {
         width: 100vw;
     }
     div.logo{
+        Position: relative;
+        Right:80px;
         font-size: :1.3rem;
     }
     ul.nav-links{
+        Padding-left:90px
         flex-direction: column; 
     }
     ul li{
