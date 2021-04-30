@@ -47,18 +47,21 @@ ul li a:hover {
 
     div.nav-bar {
         display: flex;
+        background-color: rgb(40, 45, 58);
         justify-content: space-between;
         padding: :1rem;
         width: 100vw;
+        
     }
     div.logo{
-        Position: relative;
-        Right:80px;
+        position: relative;
+        right: 80px;
         font-size: :1.3rem;
     }
     ul.nav-links{
-        Padding-left:90px;
-        flex-direction: column; 
+        padding-left: 90px;
+        flex-direction:column;
+        
     }
     ul li{
         margin: 0;
@@ -70,7 +73,7 @@ ul li a:hover {
 }
 
 div.hero-section {
-    background: #304353;
+    background: rgb(40, 45, 58);
     padding: 10rem;
 }
 
@@ -226,7 +229,7 @@ div.snapshot-box-content {
 }
 
 
-div.box1 {
+div.box1 { 
     background: #fff;
     padding: 10px 20px;
     width: 220px;
@@ -234,6 +237,10 @@ div.box1 {
     margin: 10px;
     border-radius: 2px;
     box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+.img-1{
+    border-radius: 220px;
+    width: 100px;
 }
 
 div.box3 {
@@ -294,6 +301,7 @@ div.box1 h5 {
     div.box3 {
         width: 300px;
         height: 230px;
+        background-color:rgb(40, 45,58);
     }
 }
 
@@ -352,7 +360,7 @@ div.img img {
 }
 
 div.footer {
-    background: #304353;
+    background: rgb(40, 45,58);
     padding: 3rem;
 }
 
@@ -452,6 +460,7 @@ div.footer h6 {
 @media screen and (max-width:768px){
     div.footer{
         padding: 2rem;
+        background-color: rgb(40, 45,58);
     }
     div.footer-content h4{
         font-size: 1.2rem;
@@ -475,3 +484,13 @@ div.footer h6 {
         font-size: 0.8rem;
         padding-top: 6rem;
     }
+
+
+}
+
+
+
+
+
+
+
