@@ -247,7 +247,20 @@ div.box1 {
 .img-1{
     border-radius: 220px;
     width: 100px;
+    height: 110px;
 }
+.img-2{
+    border-radius: 220px;
+    width: 100px;
+    height: 110px;
+
+}
+.img-3{
+    border-radius: 220px;
+    width: 100px;
+    height: 110px;
+}
+  
 
 div.box3 {
     background: rgb(123, 172, 49);
