@@ -12,12 +12,12 @@ div.nav-bar {
     justify-content: space-between;
     padding: 1rem 6rem;
     width: 100vw;
-    background: #304353;
+    background: rgb(123, 172, 49);
 }
 
 div.logo {
     font-size: 1.5rem;
-    color: #bcc3c7;
+    color: white;
 }
 
 ul.nav-links {
@@ -34,14 +34,15 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #88949B;
+    color: white;
     padding: 0.5vw;
 }
 
 ul li a:hover {
-    color: #304353;
+    color: greenyellow;
     background: #fff;
     padding: 0.5rem;
+    border-radius: 20px;
 }
 @media  screen and (max-width:768px) {
 
@@ -76,6 +77,9 @@ div.hero-section {
     background: rgb(40, 45, 58);
     padding: 10rem;
 }
+div.background{
+    border-radius: 20px;
+}
 
 div.hero-content-heading {
     text-align: center;
@@ -86,13 +90,13 @@ div.hero-content-heading h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 300;
-    color: #bcc3c7;
+    color: white;
 }
 
 div.hero-content-heading p {
     text-align: center;
     padding-top: 0.7rem;
-    color: #88949B;
+    color: white;
     font-size: 1rem;
     letter-spacing: 2px;
     font-weight: 300;
@@ -106,9 +110,9 @@ div.hero-content-btn {
 }
 
 div.hero-content-btn a {
-    background: #E44C65;
+    background: rgb(123, 172, 49);
     text-decoration: none;
-    color: #bcc3c7;
+    color: white;
     font-size: 0.9rem;
     padding: 10px 30px;
     border-radius: 3px;
@@ -179,7 +183,7 @@ div.hero-background-pos {
     div.background {
         padding: 10px 20px;
         width: 300px;
-        height: 250px;
+        height: 280px;
     }
     div.background h4{
         padding: 1rem;
@@ -235,21 +239,23 @@ div.box1 {
     width: 220px;
     height: 230px;
     margin: 10px;
-    border-radius: 2px;
+    border-radius: 20px;
     box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
 }
+
+
 .img-1{
     border-radius: 220px;
     width: 100px;
 }
 
 div.box3 {
-    background: #304353;
+    background: rgb(123, 172, 49);
     padding: 10px 20px;
     width: 220px;
     height: 230px;
     margin: 10px;
-    border-radius: 2px;
+    border-radius: 20px;
     box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
 }
 
@@ -257,9 +263,10 @@ div.box3 {
 div.box3 h5 {
     text-align: center;
     padding-top: 2rem;
-    color: #E44C65;
+    color: white;
     font-size: 1rem;
 }
+
 
 div.circle {
     display: flex;
@@ -307,7 +314,7 @@ div.box1 h5 {
 
 div.gallery-section {
     background: #fff;
-    padding: 4rem;
+    padding: 3rem;
 }
 
 div.gallery-content {
@@ -442,9 +449,9 @@ div.footer-btn {
 }
 
 div.footer-btn a {
-    background: #E44C65;
+    background: rgb(123, 172, 49);
     text-decoration: none;
-    color: #f0f0f0;
+    color: white;
     font-size: 0.9rem;
     padding: 10px 50px;
     border-radius: 3px;
@@ -487,7 +494,6 @@ div.footer h6 {
 
 
 }
-
 
 
 
